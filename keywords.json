@@ -1,0 +1,66 @@
+{
+  "DragQueen": {
+    "search": ["女装","小裙子"],
+    "modify": false,
+    "ignore": ["算了","别","拒绝"],
+    "reply": ["协会DS，请","是女装大佬！(警觉"],
+    "ban": false
+  },
+  "Association": {
+    "search": ["协会","安协","300b","300B"],
+    "modify": ["去","走","在哪"],
+    "ignore": false,
+    "reply": ["协会的地址是一教北 300b，如果不是太早或太晚基本都有人在，进去后找个地方坐下来学习就行"],
+    "ban": false
+  },
+  "PingPong": {
+    "search": ["ping","Ping","PING","p1ng"],
+    "modify": false,
+    "ignore": ["localhost",".","ip","地址","一下","试试"],
+    "//": "过滤掉'ping xxx.xxx.xxx.xxx'的情况",
+    "reply": ["PONG"],
+    "ban": false
+  },
+  "Robot": {
+    "search": ["机器人","代权机器"],
+    "modify": false,
+    "ignore": false,
+    "reply": ["呵呵呵机器人怎么了？机器人怎么了你说呀", "机器人万岁。", "人类是渣渣。", "你才是机器人！"],
+    "ban": false
+  },
+  "GroupOwner": {
+    "search": ["群主"],
+    "modify": false,
+    "ignore": false,
+    "reply": ["群主啊，这东西很好吃", "群主是我"],
+    "ban": false
+  },
+  "SendPhoto": {
+    "search": ["爆照"],
+    "modify": false,
+    "ignore": false,
+    "reply": ["欢迎爆照","协会DS，请"],
+    "ban": false
+  },
+  "Gay": {
+    "search": ["搞基"],
+    "modify": false,
+    "ignore": false,
+    "reply": ["和我搞怎么样？", "搞基这事可不能说得太细","啊，考虑一下我？"],
+    "ban": false
+  },
+  "CTF": {
+    "search": ["CTF","ctf"],
+    "modify": ["是啥","啥是","是什么"],
+    "ignore": false,
+    "reply": ["CTF（Capture The Flag）中文一般译作夺旗赛，在网络安全领域中指的是网络安全技术人员之间进行技术竞技的一种比赛形式。"],
+    "ban": false
+  },
+  "StudyWhat": {
+    "search": ["怎么入门","学什么","零基础","入门应该","入门要"],
+    "modify": false,
+    "ignore": false,
+    "reply": ["入门还是要以 C 语言为基础，书籍推荐《C Primer Plus》，最好不要看谭浩强、XX 天精通或者从入门到精通系列…另外，想学 CTF 的话推荐一个网站 https://ctf-wiki.github.io/ctf-wiki/"],
+    "ban": false
+  }
+}
