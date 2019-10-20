@@ -11,7 +11,7 @@ NICKNAME = {'%'}  # 命令标志符
 DBNAME = "ctf"
 USER = "******"
 PASSWD = "******"
-GROUP = [818441085]  # 比赛播报 -> 快乐计组
+GROUP = [*]  
 BLACKLIST = []
 with open('keywords.json', 'r') as words:
     KEYWORDS = json.load(words)
